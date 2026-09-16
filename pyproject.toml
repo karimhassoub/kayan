@@ -1,0 +1,15 @@
+[project]
+name = "kayan"
+version = "0.0.1"
+description = "Custom Frappe application for construction-sector business logic and integrations."
+authors = [
+    { name = "NexERP Technologies" }
+]
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "frappe~=16.0"
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
